@@ -40,7 +40,7 @@ function bootstrap(Bouvardiaversion){
 	addRoom(room_1);
 	
 	item_0 = []
-	item_0["name"] = "HOuse Key";
+	item_0["name"] = "House Key";
 	
 	addItem(item_0);
 	return true;
