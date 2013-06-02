@@ -13,7 +13,7 @@ function bootstrap(Bouvardiaversion){
 	
 	game_information["introduction"] = "Welcome To The Hitman Verision 0.1"
 	
-	room_zero = [];
+	home_0 = [];
 	
 	home_0["name"] = "Home";
 	home_0["description"] = "This is you House.";
