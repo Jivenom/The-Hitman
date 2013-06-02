@@ -11,7 +11,7 @@ function bootstrap(Bouvardiaversion){
 	game_information["copyright"] = "Copyright Jivenom"
 	game_information["version"] = "0.1"
 	
-	game_information["introduction"] = "Welcome To The Hitman Verision 0.1"
+	game_information["introduction"] = "Welcome To The Hitman Version 0.1"
 	
 	home_0 = [];
 	
@@ -29,7 +29,7 @@ function bootstrap(Bouvardiaversion){
 	driveway_1 = []
 	
 	driveway_1["name"] = "Driveway";
-	driveway_1["description"] = "Thisis your Driveway. It is small and can hold one car.";
+	driveway_1["description"] = "This is your Driveway. It is small and can hold one car.";
 	driveway_1["connectsWest"] = undefined;
 	driveway_1["connectsEast"] = undefined;
 	driveway_1["connectsNorth"] = 0;
@@ -43,12 +43,11 @@ function bootstrap(Bouvardiaversion){
 	item_0["name"] = "House Key";
 	
 	addItem(item_0);
-	return true;
 	
-		item_1 = []
+	item_1 = []
 	item_1["name"] = "Gas Can";
 	
 	addItem(item_1);
+	
 	return true;
-}
 }
