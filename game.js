@@ -46,7 +46,7 @@ function bootstrap(Bouvardiaversion){
 	Sidewalk1_2["description"] = "Just your average sidewalk";
 	Sidewalk1_2["connectsWest"] = undefined;
 	Sidewalk1_2["connectsEast"] = undefined;
-	Sidewalk1_2["connectsNorth"] = 1;
+	Sidewalk1_2["connectsNorth"] = 2;
 	Sidewalk1_2["connectsSouth"] = undefined;
 	Sidewalk1_2["item"] = 0;
 	Sidewalk1_2["requiredItem"] = undefined;
