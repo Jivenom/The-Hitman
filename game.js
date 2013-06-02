@@ -48,7 +48,7 @@ function bootstrap(Bouvardiaversion){
 	Sidewalk1_2["connectsEast"] = undefined;
 	Sidewalk1_2["connectsNorth"] = 2;
 	Sidewalk1_2["connectsSouth"] = undefined;
-	Sidewalk1_2["item"] = 0;
+	Sidewalk1_2["item"] = undefined;
 	Sidewalk1_2["requiredItem"] = undefined;
 	
 	addRoom(Sidewalk1_2);
