@@ -34,7 +34,7 @@ function bootstrap(Bouvardiaversion){
 	driveway_1["connectsEast"] = undefined;
 	driveway_1["connectsNorth"] = 0;
 	driveway_1["connectsSouth"] = undefined;
-	driveway_1["item"] = undefined;
+	driveway_1["item"] = 1;
 	driveway_1["requiredItem"] = 0;
 	
 	addRoom(driveway_1);
