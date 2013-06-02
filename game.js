@@ -22,7 +22,7 @@ function bootstrap(Bouvardiaversion){
 	home_0["connectsNorth"] = undefined;
 	home_0["connectsSouth"] = undefined;
 	home_0["item"] = 0;
-	home_0"requiredItem"] = undefined;
+	home_0["requiredItem"] = undefined;
 	
 	addRoom(home_0);
 	
