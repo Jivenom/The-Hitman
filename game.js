@@ -44,4 +44,11 @@ function bootstrap(Bouvardiaversion){
 	
 	addItem(item_0);
 	return true;
+	
+		item_1 = []
+	item_1["name"] = "Gas Can";
+	
+	addItem(item_1);
+	return true;
+}
 }
