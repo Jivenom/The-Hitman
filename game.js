@@ -26,7 +26,7 @@ function bootstrap(Bouvardiaversion){
 	
 	addRoom(home_0);
 	
-	room_1 = []
+	driveway_1 = []
 	
 	driveway_1["name"] = "Driveway";
 	driveway_1["description"] = "Thisis your Driveway. It is small and can hold one car.";
