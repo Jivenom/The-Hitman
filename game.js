@@ -30,9 +30,9 @@ function bootstrap(Bouvardiaversion){
 	
 	driveway_1["name"] = "Driveway";
 	driveway_1["description"] = "Thisis your Driveway. It is small and can hold one car.";
-	driveway_1["connectsWest"] = 0;
+	driveway_1["connectsWest"] = undefined;
 	driveway_1["connectsEast"] = undefined;
-	driveway_1["connectsNorth"] = undefined;
+	driveway_1["connectsNorth"] = 0;
 	driveway_1["connectsSouth"] = undefined;
 	driveway_1["item"] = undefined;
 	driveway_1["requiredItem"] = 0;
