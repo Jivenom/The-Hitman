@@ -6,6 +6,7 @@ function bootstrap(Bouvardiaversion){
 	
 	game_information = [];
 	
+	game_information["fancy_introduction"] = true;
 	game_information["name"] = "The Hitman"
 	game_information["publisher"] = "Jivenom"
 	game_information["copyright"] = "Copyright Jivenom"
