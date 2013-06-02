@@ -6,25 +6,25 @@ function bootstrap(Bouvardiaversion){
 	
 	game_information = [];
 	
-	game_information["name"] = "Bouvardia Test Game"
-	game_information["publisher"] = "Bouvardia Team"
-	game_information["copyright"] = "Copyright TDLive.org Incorporated"
-	game_information["version"] = "1.0"
+	game_information["name"] = "The Hitman"
+	game_information["publisher"] = "Jivenom"
+	game_information["copyright"] = "Copyright Jivenom"
+	game_information["version"] = "0.1"
 	
-	game_information["introduction"] = "This is a test game to show off the features of Bouvardia."
+	game_information["introduction"] = "Welcome To The Hitman Verision 0.1"
 	
 	room_zero = [];
 	
-	room_zero["name"] = "Room Zero";
-	room_zero["description"] = "This. Is. Room. Zero.";
-	room_zero["connectsWest"] = undefined;
-	room_zero["connectsEast"] = 1;
-	room_zero["connectsNorth"] = undefined;
-	room_zero["connectsSouth"] = undefined;
-	room_zero["item"] = 0;
-	room_zero["requiredItem"] = undefined;
+	home_0["name"] = "Home";
+	home_0["description"] = "This is you House.";
+	home_0["connectsWest"] = undefined;
+	home_0["connectsEast"] = 1;
+	home_0["connectsNorth"] = undefined;
+	home_0["connectsSouth"] = undefined;
+	home_0["item"] = 0;
+	home_0"requiredItem"] = undefined;
 	
-	addRoom(room_zero);
+	addRoom(home_0);
 	
 	room_1 = []
 	
@@ -40,7 +40,7 @@ function bootstrap(Bouvardiaversion){
 	addRoom(room_1);
 	
 	item_0 = []
-	item_0["name"] = "Room One Key";
+	item_0["name"] = "HOuse Key";
 	
 	addItem(item_0);
 	return true;
