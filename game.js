@@ -51,7 +51,7 @@ function bootstrap(Bouvardiaversion){
 	Sidewalk1_2["item"] = undefined;
 	Sidewalk1_2["requiredItem"] = undefined;
 	
-	addRoom(Sidewalk1_3);
+	addRoom(Sidewalk1_2); //jivenom, i changed this intentionally
 	
 	item_0 = []
 	item_0["name"] = "House Key";
