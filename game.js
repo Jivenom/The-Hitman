@@ -44,12 +44,12 @@ function bootstrap(Bouvardiaversion){
 	Sidewalk1_2 = [];
 	
 	Sidewalk1_2["name"] = "Sidewalk 1";
-	Sidewalk1_2["description"] = "Just your average sidewalk";
+	Sidewalk1_2["description"] = "Just your average sidewalk with a note on the ground";
 	Sidewalk1_2["connectsWest"] = undefined;
 	Sidewalk1_2["connectsEast"] = undefined;
 	Sidewalk1_2["connectsNorth"] = 1;
 	Sidewalk1_2["connectsSouth"] = undefined;
-	Sidewalk1_2["item"] = undefined;
+	Sidewalk1_2["item"] = 2;
 	Sidewalk1_2["requiredItem"] = undefined;
 	
 	addRoom(Sidewalk1_2); //jivenom, i changed this intentionally
@@ -63,6 +63,11 @@ function bootstrap(Bouvardiaversion){
 	item_1["name"] = "Gas Can";
 	
 	addItem(item_1);
+	
+		item_1 = []
+	item_2["name"] = "Note";
+	
+	addItem(item_2;
 	
 	return true;
 }
