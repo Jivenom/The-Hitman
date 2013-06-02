@@ -33,25 +33,25 @@ function bootstrap(Bouvardiaversion){
 	driveway_1["connectsWest"] = undefined;
 	driveway_1["connectsEast"] = undefined;
 	driveway_1["connectsNorth"] = 0;
-	driveway_1["connectsSouth"] = 3;
+	driveway_1["connectsSouth"] = 2;
 	driveway_1["item"] = 1;
 	driveway_1["requiredItem"] = 0;
 	
 	addRoom(driveway_1);
 	
 		
-	Sidewalk1_3 = [];
+	Sidewalk1_2 = [];
 	
-	Sidewalk1_3["name"] = "Sidewalk 1";
-	Sidewalk1_3["description"] = "Just your average sidewalk";
-	Sidewalk1_3["connectsWest"] = undefined;
-	Sidewalk1_3["connectsEast"] = undefined;
-	Sidewalk1_3["connectsNorth"] = 1;
-	Sidewalk1_3["connectsSouth"] = undefined;
-	Sidewalk1_3["item"] = 0;
-	Sidewalk1_3["requiredItem"] = undefined;
+	Sidewalk1_2["name"] = "Sidewalk 1";
+	Sidewalk1_2["description"] = "Just your average sidewalk";
+	Sidewalk1_2["connectsWest"] = undefined;
+	Sidewalk1_2["connectsEast"] = undefined;
+	Sidewalk1_2["connectsNorth"] = 1;
+	Sidewalk1_2["connectsSouth"] = undefined;
+	Sidewalk1_2["item"] = 0;
+	Sidewalk1_2["requiredItem"] = undefined;
 	
-	addRoom(Sidewalk1_3);
+	addRoom(Sidewalk1_2);
 	
 	item_0 = []
 	item_0["name"] = "House Key";
