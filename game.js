@@ -64,7 +64,7 @@ function bootstrap(Bouvardiaversion){
 	
 	addItem(item_1);
 	
-		item_1 = []
+	item_2 = []
 	item_2["name"] = "Note";
 	
 	addItem(item_2;
