@@ -46,7 +46,7 @@ function bootstrap(Bouvardiaversion){
 	Sidewalk1_2["name"] = "Sidewalk 1";
 	Sidewalk1_2["description"] = "Just your average sidewalk with a note on the ground that reads 'Find a way to do it I dont care how but kill ur neighbor'";
 	Sidewalk1_2["connectsWest"] = undefined;
-	Sidewalk1_2["connectsEast"] = undefined;
+	Sidewalk1_2["connectsEast"] = 4;
 	Sidewalk1_2["connectsNorth"] = 1;
 	Sidewalk1_2["connectsSouth"] = undefined;
 	Sidewalk1_2["item"] = undefined;
@@ -54,7 +54,21 @@ function bootstrap(Bouvardiaversion){
 	
 	addRoom(Sidewalk1_2); //jivenom, i changed this intentionally
 	
+	Sidewalk1_2 = [];
+	
+	Sidewalk1_2["name"] = "Sidewalk 2";
+	Sidewalk1_2["description"] = "Just your average sidewalk";
+	Sidewalk1_2["connectsWest"] = 3;
+	Sidewalk1_2["connectsEast"] = undefined;
+	Sidewalk1_2["connectsNorth"] = undefined;
+	Sidewalk1_2["connectsSouth"] = undefined;
+	Sidewalk1_2["item"] = undefined;
+	Sidewalk1_2["requiredItem"] = undefined;
+	
+	addRoom(Sidewalk1_2); //jivenom, i changed this intentionally
+	
 	item_0 = []
+	
 	item_0["name"] = "House Key";
 	
 	addItem(item_0);
